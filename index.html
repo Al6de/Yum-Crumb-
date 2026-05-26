@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="fr" data-ribbon="on" data-card-style="minimal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yum&amp;Crumb &#8212; P&#226;tisserie sur commande, Libourne</title>
+  <meta name="description" content="P&#226;tisseries artisanales sur commande par Martin, jeune p&#226;tissier de 15 ans &#224; Libourne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Familjen+Grotesk:wght@400;500;600;700&family=Anton&family=Archivo+Black&family=Manrope:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="brand" data-nav="home">
+    <div class="brand-mark">Yum<span class="amp">&amp;</span>Crumb</div>
+    <div class="brand-sub">P&#226;tisserie &middot; Libourne</div>
+  </div>
+  <ul class="nav-links">
+    <li><button class="nav-link active" data-nav="home">Accueil</button></li>
+    <li><button class="nav-link" data-nav="catalog">Cr&#233;ations</button></li>
+    <li><button class="nav-link" data-nav="contact">Devis</button></li>
+  </ul>
+  <button class="nav-cta" data-nav="contact">Demander un devis</button>
+</nav>
+
+<!-- ===================== PAGE HOME ===================== -->
+<div id="page-home">
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow-row">
+        <span class="stamp">Libourne</span>
+        <span class="stamp outline">Sur commande</span>
+      </div>
+      <h1>G&#226;teaux <span class="hl">faits main</span>, par Martin.</h1>
+      <p class="hero-lede">
+        <strong>15 ans, jeune p&#226;tissier &#224; Libourne.</strong> Number cakes,
+        classiques bien faits, cookies du jour &#8212; livr&#233;s chez vous ou &#224;
+        r&#233;cup&#233;rer en click &amp; collect.
+      </p>
+      <div class="hero-actions">
+        <button class="btn honey" data-nav="catalog">Voir les cr&#233;ations <span class="arrow">&#8594;</span></button>
+        <button class="btn ghost" data-nav="contact">Demander un devis</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame-card frame-main">
+        <div style="aspect-ratio:4/5;overflow:hidden;background:var(--cream-soft)">
+          <img src="photos/flan.png" alt="Flan p&#226;tissier" style="display:block;width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="frame-cap"><span>N&#176; 01 &#8212; Flan P&#226;tissier</span><span>Fait maison</span></div>
+      </div>
+      <div class="frame-card frame-floater">
+        <div style="aspect-ratio:1/1;overflow:hidden;background:var(--cream-soft)">
+          <img src="photos/galette.png" alt="Galette des Rois" style="display:block;width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="frame-cap"><span>Galette</span><span>Janvier</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbon"><div class="ribbon-track" id="ribbon-track"></div></div>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Les signatures</div>
+        <h2>Trois pi&#232;ces qui reviennent <span class="hl">le plus souvent</span>.</h2>
+      </div>
+      <div class="section-meta">S&#233;lection &middot; 2026<br>03 cr&#233;ations</div>
+    </div>
+    <div class="featured">
+      <div class="featured-card big">
+        <div class="img-wrap">
+          <span class="featured-num">N&#176; 01</span>
+          <img src="photos/number-cake.png" alt="Number Cake" style="display:block;width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="featured-info"><h3>Number Cake</h3><span class="price">Sur devis</span></div>
+        <p>Le g&#226;teau-anniversaire signature&#160;: sabl&#233; tendre, chantilly mascarpone et fruits frais ou caramel selon saison. Toutes formes possibles.</p>
+      </div>
+      <div class="featured-card med">
+        <div class="img-wrap">
+          <span class="featured-num">N&#176; 02</span>
+          <img src="photos/mille-feuille.png" alt="Mille-Feuille Vanille" style="display:block;width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="featured-info"><h3>Mille-Feuille Vanille</h3><span class="price">Sur devis</span></div>
+        <p>Trois feuilletages caramel&#233;s, cr&#232;me p&#226;tissi&#232;re &#224; la vanille.</p>
+      </div>
+      <div class="featured-card med">
+        <div class="img-wrap">
+          <span class="featured-num">N&#176; 03</span>
+          <img src="photos/cookie-lotus.png" alt="Cookie Lotus" style="display:block;width:100%;height:100%;object-fit:cover">
+        </div>
+        <div class="featured-info"><h3>Cookie Lotus</h3><span class="price">Sur devis</span></div>
+        <p>P&#226;te &#224; cookie fondant, &#233;clats de sp&#233;culoos Lotus, c&#339;ur coulant.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tone-ink">
+    <div class="about">
+      <div class="about-portrait">
+        <img src="photos/martin.png" alt="Portrait de Martin, jeune p&#226;tissier" style="display:block;width:100%;height:100%;object-fit:cover">
+      </div>
+      <div>
+        <div class="eyebrow">Le p&#226;tissier</div>
+        <h2 class="quote">&#171;&#160;J&#8217;ai commenc&#233; en regardant ma grand-m&#232;re faire des g&#226;teaux. <span class="hl">Aujourd&#8217;hui j&#8217;en invente.</span>&#160;&#187;</h2>
+        <p class="about-bio">Martin a 15 ans et p&#226;tisse depuis qu&#8217;il est petit. Entre le coll&#232;ge et les cours, il pr&#233;pare des g&#226;teaux sur commande pour les anniversaires, les go&#251;ters et les occasions des Libournais. Tout est fait &#224; la maison.</p>
+        <div class="about-stats">
+          <div class="about-stat"><span class="num">15</span><span class="label">Ans, le p&#226;tissier</span></div>
+          <div class="about-stat"><span class="num">48h</span><span class="label">D&#233;lai minimum</span></div>
+          <div class="about-stat"><span class="num">100%</span><span class="label">Fait &#224; la maison</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tone-cream">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Comment &#231;a marche</div>
+        <h2>Trois &#233;tapes. <span class="hl">Pas plus.</span></h2>
+      </div>
+    </div>
+    <div class="process">
+      <div class="process-step">
+        <span class="num">01 &#8212; Vous choisissez</span>
+        <h4>Rep&#233;rez une cr&#233;ation</h4>
+        <p>Parcourez le catalogue &#8212; tout est faisable, en taille et en parfum. Aucun prix fixe&#160;: chaque commande est devis&#233;e.</p>
+      </div>
+      <div class="process-step">
+        <span class="num">02 &#8212; Vous &#233;crivez</span>
+        <h4>Remplissez le formulaire</h4>
+        <p>Indiquez ce qui vous fait envie, pour quand, pour combien. Martin vous r&#233;pond avec un devis sous 24 heures.</p>
+      </div>
+      <div class="process-step">
+        <span class="num">03 &#8212; Vous r&#233;cup&#233;rez</span>
+        <h4>Livraison ou click &amp; collect</h4>
+        <p>&#192; Libourne, vous choisissez la livraison ou un retrait &#8212; cr&#233;neau confirm&#233; par Martin par message.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tone-honey" style="text-align:center;padding-top:100px;padding-bottom:100px">
+    <div class="eyebrow" style="justify-content:center;display:inline-flex">Sur commande uniquement</div>
+    <h2 style="margin:16px auto 0;font-size:clamp(48px,7vw,104px);max-width:1000px;font-weight:800;letter-spacing:-0.04em">
+      Pour un anniversaire, un go&#251;ter, ou un dimanche en famille.
+    </h2>
+    <div style="margin-top:44px;display:flex;justify-content:center;gap:16px">
+      <button class="btn" data-nav="contact">Demander un devis <span class="arrow">&#8594;</span></button>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ===================== PAGE CATALOG ===================== -->
+<div id="page-catalog" style="display:none">
+
+  <div class="catalog-head">
+    <div>
+      <div class="eyebrow">Le catalogue &middot; 2026</div>
+      <h1>Les <span class="hl">cr&#233;ations</span>.</h1>
+      <p class="catalog-intro">Une carte courte de g&#226;teaux que Martin ma&#238;trise. Tout est sur commande, &#224; devis personnalis&#233; selon la taille et le jour.</p>
+    </div>
+    <div style="font-family:var(--font-mono);font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--ink-soft);text-align:right">
+      Commandes ouvertes<br>
+      <span style="font-family:var(--font-display);font-size:28px;font-weight:700;color:var(--ink);letter-spacing:-0.02em;text-transform:none">Toute l&#8217;ann&#233;e</span>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-chips">
+      <button class="chip active" data-filter="all">Toutes <span class="count">8</span></button>
+      <button class="chip" data-filter="signatures">Signatures <span class="count">3</span></button>
+      <button class="chip" data-filter="classiques">Classiques <span class="count">3</span></button>
+      <button class="chip" data-filter="gourmandises">Gourmandises <span class="count">2</span></button>
+      <button class="chip" data-filter="saisonniers">Saisonniers <span class="count">1</span></button>
+    </div>
+    <button class="btn" style="padding:12px 22px;font-size:13px" data-nav="contact">Demander un devis <span class="arrow">&#8594;</span></button>
+  </div>
+
+  <div class="catalog-grid">
+
+    <div class="cat-card" data-cat="signatures">
+      <div class="cat-img">
+        <span class="cat-badge gold">Signature</span>
+        <img src="photos/number-cake.png" alt="Number Cake">
+        <button class="cat-add" data-iid="number-cake" data-iname="Number Cake" data-imeta="Sur commande &middot; chiffre, lettre ou c&#339;ur">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Number Cake</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Sur commande &middot; chiffre, lettre ou c&#339;ur</div>
+      <p class="cat-desc">Le g&#226;teau-anniversaire signature&#160;: sabl&#233; tendre, chantilly mascarpone et fruits frais ou caramel. Toutes formes possibles, toutes occasions.</p>
+    </div>
+
+    <div class="cat-card" data-cat="classiques">
+      <div class="cat-img">
+        <span class="cat-badge gold">Signature</span>
+        <img src="photos/mille-feuille.png" alt="Mille-Feuille Vanille">
+        <button class="cat-add" data-iid="mille-feuille" data-iname="Mille-Feuille Vanille" data-imeta="Vanille &middot; feuilletage maison">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Mille-Feuille Vanille</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Vanille &middot; feuilletage maison</div>
+      <p class="cat-desc">Trois feuilletages caramel&#233;s &#224; blanc, cr&#232;me p&#226;tissi&#232;re &#224; la vanille, neige de sucre glace au moment du dressage.</p>
+    </div>
+
+    <div class="cat-card" data-cat="gourmandises">
+      <div class="cat-img">
+        <span class="cat-badge gold">Signature</span>
+        <img src="photos/cookie-lotus.png" alt="Cookie Lotus">
+        <button class="cat-add" data-iid="cookie-lotus" data-iname="Cookie Lotus" data-imeta="Speculoos &middot; c&#339;ur coulant">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Cookie Lotus</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Speculoos &middot; c&#339;ur coulant</div>
+      <p class="cat-desc">P&#226;te &#224; cookie fondant, gros &#233;clats de sp&#233;culoos Lotus, c&#339;ur coulant &#224; la p&#226;te de sp&#233;culoos. Id&#233;alement servi ti&#232;de.</p>
+    </div>
+
+    <div class="cat-card" data-cat="classiques">
+      <div class="cat-img">
+        <img src="photos/flan.png" alt="Flan P&#226;tissier">
+        <button class="cat-add" data-iid="flan" data-iname="Flan P&#226;tissier" data-imeta="Vanille &middot; p&#226;te sabl&#233;e">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Flan P&#226;tissier</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Vanille &middot; p&#226;te sabl&#233;e</div>
+      <p class="cat-desc">P&#226;te sabl&#233;e croustillante, appareil &#224; flan g&#233;n&#233;reusement vanil&#233;, surface caramel&#233;e naturellement par cuisson lente.</p>
+    </div>
+
+    <div class="cat-card" data-cat="saisonniers">
+      <div class="cat-img">
+        <span class="cat-badge">Saisonnier</span>
+        <img src="photos/galette.png" alt="Galette des Rois">
+        <button class="cat-add" data-iid="galette" data-iname="Galette des Rois" data-imeta="Frangipane &middot; janvier uniquement">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Galette des Rois</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Frangipane &middot; janvier uniquement</div>
+      <p class="cat-desc">Sp&#233;cialit&#233; de janvier&#160;: feuilletage tourn&#233; &#224; la main, cr&#232;me d&#8217;amande et cr&#232;me p&#226;tissi&#232;re maison. F&#232;ve surprise incluse.</p>
+    </div>
+
+    <div class="cat-card" data-cat="classiques">
+      <div class="cat-img" style="display:flex;align-items:center;justify-content:center;background:var(--cream-soft)">
+        <button class="cat-add" style="position:static;margin:0" data-iid="tarte-citron" data-iname="Tarte Citron Meriugu&#233;e" data-imeta="Citron &middot; meringue br&#251;l&#233;e">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Tarte Citron Meriugu&#233;e</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Citron &middot; meringue br&#251;l&#233;e</div>
+      <p class="cat-desc">P&#226;te sabl&#233;e amande, cr&#233;meux citron bien franc, meringue &#224; l&#8217;italienne torch&#233;e &#224; la lampe.</p>
+    </div>
+
+    <div class="cat-card" data-cat="classiques">
+      <div class="cat-img" style="display:flex;align-items:center;justify-content:center;background:var(--cream-soft)">
+        <button class="cat-add" style="position:static;margin:0" data-iid="paris-brest" data-iname="Paris-Brest" data-imeta="Pralin&#233; noisette maison">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Paris-Brest</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Pralin&#233; noisette maison</div>
+      <p class="cat-desc">Couronne de p&#226;te &#224; choux craquante, pralin&#233; noisette pur torr&#233;fi&#233; maison, &#233;clats de noisettes.</p>
+    </div>
+
+    <div class="cat-card" data-cat="gourmandises">
+      <div class="cat-img" style="display:flex;align-items:center;justify-content:center;background:var(--cream-soft)">
+        <button class="cat-add" style="position:static;margin:0" data-iid="cookie-choco" data-iname="Cookie Triple Chocolat" data-imeta="Trois chocolats &middot; fleur de sel">Devis &#8594;</button>
+      </div>
+      <div class="cat-head"><h3>Cookie Triple Chocolat</h3><span class="price">Sur devis</span></div>
+      <div class="cat-meta">Trois chocolats &middot; fleur de sel</div>
+      <p class="cat-desc">P&#226;te brunie au beurre noisette, trois chocolats (noir, lait, blanc), pointe de fleur de sel.</p>
+    </div>
+
+  </div>
+</div><!-- /page-catalog -->
+
+<!-- ===================== PAGE CONTACT ===================== -->
+<div id="page-contact" style="display:none">
+  <div class="contact-page">
+    <aside class="contact-aside">
+      <div>
+        <div class="eyebrow">Demande de devis</div>
+        <h1>On en discute, <span class="hl">et je vous fais un prix.</span></h1>
+        <p>Remplissez le formulaire en quelques lignes &#8212; Martin vous r&#233;pond sous 24h avec un devis personnalis&#233; et un cr&#233;neau possible.</p>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info-row">
+          <span class="lbl">Zone</span>
+          <span class="val">Libourne &amp; alentours<small>Livraison ou click &amp; collect</small></span>
+        </div>
+        <div class="contact-info-row">
+          <span class="lbl">D&#233;lai</span>
+          <span class="val">48h minimum<small>Plus t&#244;t c&#8217;est demand&#233;, plus c&#8217;est s&#251;r</small></span>
+        </div>
+        <div class="contact-info-row">
+          <span class="lbl">Contact</span>
+          <span class="val">Mlegal33@icloud.com<small>R&#233;ponse sous 24h, hors temps scolaire</small></span>
+        </div>
+        <div class="contact-info-row">
+          <span class="lbl">T&#233;l&#233;phone</span>
+          <span class="val">07 66 01 86 41<small>Mieux par message &#8212; je suis souvent en cours</small></span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="contact-form">
+      <div id="form-wrap">
+        <div class="form-step">Demande de devis</div>
+        <h2 class="form-title">Parlez-moi de votre commande.</h2>
+        <form id="devis-form" novalidate>
+          <div class="form-grid">
+            <div class="field" id="f-firstName"><label>Pr&#233;nom</label><input type="text" name="firstName" placeholder="Camille" autocomplete="given-name"></div>
+            <div class="field" id="f-lastName"><label>Nom</label><input type="text" name="lastName" placeholder="Durand" autocomplete="family-name"></div>
+            <div class="field" id="f-email"><label>Email</label><input type="email" name="email" placeholder="camille@email.fr" autocomplete="email"></div>
+            <div class="field" id="f-phone"><label>T&#233;l&#233;phone</label><input type="tel" name="phone" placeholder="06 12 34 56 78" autocomplete="tel"></div>
+            <div class="field" id="f-date"><label>Date souhait&#233;e</label><input type="date" name="date"><span class="hint">Min. 48h &#224; l&#8217;avance</span></div>
+            <div class="field" id="f-servings"><label>Nombre de personnes</label><input type="text" name="servings" placeholder="Ex. 8"></div>
+            <div class="field">
+              <label>Occasion</label>
+              <select name="occasion">
+                <option value="anniversaire">Anniversaire</option>
+                <option value="gouter">Go&#251;ter / famille</option>
+                <option value="fete">F&#234;te</option>
+                <option value="autre">Autre occasion</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>R&#233;cup&#233;ration</label>
+              <select name="delivery" id="delivery-select">
+                <option value="collect">Click &amp; collect</option>
+                <option value="delivery">Livraison &#224; Libourne</option>
+                <option value="indecis">Pas encore d&#233;cid&#233;</option>
+              </select>
+            </div>
+            <div class="field full" id="f-address" style="display:none">
+              <label>Adresse de livraison</label>
+              <input type="text" name="address" placeholder="Rue, code postal, ville">
+            </div>
+            <div class="field full" id="f-message">
+              <label>Votre message (cr&#233;ations souhait&#233;es, allergies, message &#224; &#233;crire&#8230;)</label>
+              <textarea name="message" placeholder="Ex. &#8216;un number cake pour mes 30 ans en chiffre 30, parfum framboise-vanille&#8217;"></textarea>
+            </div>
+          </div>
+
+          <div id="interests-box" class="order-summary" style="display:none">
+            <div class="order-summary-head">
+              <h4>Cr&#233;ations qui vous int&#233;ressent</h4>
+              <span class="meta" id="interests-count"></span>
+            </div>
+            <div id="interests-list"></div>
+          </div>
+
+          <div class="submit-row">
+            <small>Le devis est gratuit et sans engagement. Martin revient vers vous personnellement sous 24h.</small>
+            <button type="submit" class="btn">Envoyer la demande <span class="arrow">&#8594;</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div><!-- /page-contact -->
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="brand-mark">Yum<span class="amp" style="color:var(--honey)">&amp;</span>Crumb</div>
+    <p>P&#226;tisseries sur commande, faites main par Martin, jeune p&#226;tissier de 15 ans. Libourne et alentours.</p>
+  </div>
+  <div>
+    <h5>Zone</h5>
+    <ul><li>Libourne</li><li>Et communes voisines</li><li>Livraison ou click &amp; collect</li></ul>
+  </div>
+  <div>
+    <h5>Commande</h5>
+    <ul><li>D&#233;lai 48h minimum</li><li>Sur devis personnalis&#233;</li><li>R&#233;ponse sous 24h</li></ul>
+  </div>
+  <div>
+    <h5>Contact</h5>
+    <ul>
+      <li><a href="#" data-nav="contact">Demander un devis</a></li>
+      <li>Mlegal33@icloud.com</li>
+      <li>07 66 01 86 41</li>
+    </ul>
+  </div>
+  <div class="footer-base">
+    <div>&#169; 2026 Yum&amp;Crumb &middot; Martin</div>
+    <div>Mentions l&#233;gales &middot; Confidentialit&#233;</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
